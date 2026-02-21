@@ -100,7 +100,7 @@
       <div class="lf-section" id="subtypeSection">
         <div class="lf-section-head">
           <div class="lf-section-icon" id="subtypeIcon">🏢</div>
-          <div class="lf-section-title" id="subtypeSectionTitle">Property Details</div>
+          <div class="lf-section-title" id="subtypeSectionTitle">Additional Details</div>
           <span class="lf-section-badge" id="subtypeTag">Commercial</span>
           <svg class="lf-section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
             stroke-linecap="round">
@@ -315,7 +315,7 @@
       const cfg = SUBTYPE_CONFIG[sub];
       if (!cfg) return;
       document.getElementById('subtypeIcon').textContent = cfg.icon;
-      document.getElementById('subtypeSectionTitle').textContent = cfg.label + ' Details';
+      document.getElementById('subtypeSectionTitle').textContent = 'Additional Details';
       document.getElementById('subtypeTag').textContent = cfg.label;
       document.getElementById('subtypeFields').innerHTML = cfg.fields;
       document.getElementById('listingForm').style.display = 'block';

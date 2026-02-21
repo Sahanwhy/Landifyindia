@@ -1,4 +1,4 @@
-git initpackage com.landify.landify_backend;
+package com.landify.landify_backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
